@@ -1,37 +1,47 @@
 import birthdaySong from '../assets/music/Birthday Song Piano cover (Happy birthday to me XD).mp3';
+import img1 from '../assets/images/1.jpg';
+import img2 from '../assets/images/2.jpg';
+import img3 from '../assets/images/3.jpg';
+import img4 from '../assets/images/4.jpg';
+import img5 from '../assets/images/5.jpg';
+import img6 from '../assets/images/6.jpg';
+import img7 from '../assets/images/7.jpg';
+import img8 from '../assets/images/8.jpg';
+import img9 from '../assets/images/9.jpg';
+import img10 from '../assets/images/10.jpg';
+import img11 from '../assets/images/11.jpg';
+import img12 from '../assets/images/12.jpg';
+import img13 from '../assets/images/13.jpg';
+import img14 from '../assets/images/14.jpg';
 
 export const birthdayData = {
   recipientName: "Chị Ngân",
   senderName: "Người bạn bí mật",
-  birthdayDate: "14 / 07 / 2024",
+  birthdayDate: "14 / 07 / 1991",
   month: "7",
-  year: "2024",
+  year: "1991",
   day: "14",
-  
-  heroImage: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop",
+
+  heroImage: img11,
   heroSubtitle: "Một ngày đặc biệt dành riêng cho chị",
   heroMessage: "Chúc chị có một ngày thật rực rỡ, ngập tràn niềm vui và những điều dịu dàng nhất.",
-  
+
   // Highlight Quote Section
   highlightQuote: "Chị xứng đáng với tất cả những điều tốt đẹp nhất trên thế gian này. Hãy luôn rạng rỡ theo cách của riêng mình nhé.",
-  
+
   // Memory Album (Swiper)
   memoryImages: [
     {
-      url: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop",
+      url: img1,
       caption: "Nụ cười tỏa nắng của ngày hôm ấy."
     },
     {
-      url: "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?q=80&w=800&auto=format&fit=crop",
+      url: img2,
       caption: "Luôn xinh đẹp và yêu đời nhé."
     },
     {
-      url: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=800&auto=format&fit=crop",
+      url: img3,
       caption: "Mỗi khoảnh khắc bên em đều là một món quà."
-    },
-    {
-      url: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop",
-      caption: "Giữ mãi ánh mắt lấp lánh này."
     }
   ],
 
@@ -53,16 +63,16 @@ export const birthdayData = {
 
   // Photo Gallery (10 images sliding from left and right)
   galleryImages: [
-    { url: "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?q=80&w=800&auto=format&fit=crop", caption: "Một sớm mai yên bình." },
-    { url: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop", caption: "Nụ cười tỏa nắng." },
-    { url: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=800&auto=format&fit=crop", caption: "Những ngày thong rong." },
-    { url: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop", caption: "Dịu dàng như cơn gió." },
-    { url: "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?q=80&w=800&auto=format&fit=crop", caption: "Ánh mắt biết cười." },
-    { url: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=800&auto=format&fit=crop", caption: "Trạm dừng chân bình yên." },
-    { url: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop", caption: "Rạng rỡ như ánh mai." },
-    { url: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=800&auto=format&fit=crop", caption: "Cô gái tháng 7." },
-    { url: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=800&auto=format&fit=crop", caption: "Luôn hạnh phúc nhé." },
-    { url: "https://images.unsplash.com/photo-1512413913425-05d540263624?q=80&w=800&auto=format&fit=crop", caption: "Và giữ mãi nét trong trẻo này." }
+    { url: img4, caption: "Một sớm mai yên bình." },
+    { url: img5, caption: "Nụ cười tỏa nắng." },
+    { url: img6, caption: "Những ngày thong rong." },
+    { url: img7, caption: "Dịu dàng như cơn gió." },
+    { url: img8, caption: "Ánh mắt biết cười." },
+    { url: img9, caption: "Trạm dừng chân bình yên." },
+    { url: img10, caption: "Rạng rỡ như ánh mai." },
+    { url: img12, caption: "Cô gái tháng 7." },
+    { url: img13, caption: "Luôn hạnh phúc nhé." },
+    { url: img14, caption: "Và giữ mãi nét trong trẻo này." }
   ],
 
   location: {
@@ -71,9 +81,9 @@ export const birthdayData = {
     mapImage: "https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=800&auto=format&fit=crop"
   },
 
-  finalImage: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=800&auto=format&fit=crop",
+  finalImage: img11,
   finalMessage: "Một lần nữa, chúc mừng sinh nhật chị. Mong tuổi mới mang đến cho chị thật nhiều tiếng cười, niềm vui và những điều dịu dàng nhất.",
-  
+
   music: {
     url: birthdaySong,
     title: "Happy Birthday to me XD",
