@@ -34,24 +34,6 @@ export default function BirthdayEnding() {
         <div className="absolute -top-4 right-4 text-4xl -rotate-12">💖</div>
       </motion.div>
 
-      <motion.h2 
-        className="font-serif text-3xl text-text-brown mb-4 italic"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-      >
-        Một lần nữa, <br/> chúc mừng sinh nhật em.
-      </motion.h2>
-
-      <motion.p 
-        className="font-body text-[15px] leading-relaxed text-text-brown/80 mb-10 max-w-[320px]"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ delay: 0.2 }}
-      >
-        {birthdayData.finalMessage}
-      </motion.p>
 
       <motion.div 
         className="flex gap-4"

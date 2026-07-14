@@ -15,7 +15,7 @@ import img13 from '../assets/images/13.jpg';
 import img14 from '../assets/images/14.jpg';
 
 export const birthdayData = {
-  recipientName: "Chị Ngân",
+  recipientName: "Phú bà cụa iêm",
   senderName: "Người bạn bí mật",
   birthdayDate: "14 / 07 / 1991",
   month: "7",
@@ -23,11 +23,11 @@ export const birthdayData = {
   day: "14",
 
   heroImage: img11,
-  heroSubtitle: "Một ngày đặc biệt dành riêng cho chị",
-  heroMessage: "Chúc chị có một ngày thật rực rỡ, ngập tràn niềm vui và những điều dịu dàng nhất.",
+  heroSubtitle: "Một chút đặc biệt dành riêng cho",
+  heroMessage: "Chúc chị iu tuổi mới vẫn luôn yêu đời và rực rỡ hơn cả bây giờ.",
 
   // Highlight Quote Section
-  highlightQuote: "Chị xứng đáng với tất cả những điều tốt đẹp nhất trên thế gian này. Hãy luôn rạng rỡ theo cách của riêng mình nhé.",
+  highlightQuote: "Tuổi mới nếu có stress thì chỉ stress vì nhiều tiền quá, không biết tiêu sao cho hết thôi hì hì.",
 
   // Memory Album (Swiper)
   memoryImages: [
@@ -48,7 +48,7 @@ export const birthdayData = {
   // Short Message Cards interspersed
   shortQuotes: [
     "Mong tuổi mới sẽ thật nhiều niềm vui và bình an.",
-    "Mỗi ngày của chị đều thật xinh đẹp nhé.",
+    "Mãi yêu và luôn ủng hộ chị. Yêu chị lớp diuuuuuuuuuu.",
     "Always loved, always cherished."
   ],
 

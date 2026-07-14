@@ -57,7 +57,7 @@ export default function OpeningScreen({ onOpen }: Props) {
             
             <h1 className="font-serif text-3xl text-text-brown mb-2">Happy Birthday</h1>
             <p className="font-body text-sm text-text-brown/70 mb-8 leading-relaxed">
-              Một điều thật đặc biệt dành riêng cho <br/> 
+              Một chút đặc biệt dành riêng cho phú bà cụa iêm <br/> 
               <span className="font-script text-3xl text-accent-red block mt-2">{birthdayData.recipientName}</span>
             </p>
 
