@@ -54,11 +54,14 @@ export const birthdayData = {
 
   // Secret Letter
   letterContent: [
-    "Gửi Chị Ngân xinh đẹp,",
-    "Hôm nay là một ngày vô cùng đặc biệt. Không chỉ vì đó là sinh nhật chị, mà vì đó là ngày thế giới có thêm một nụ cười rạng rỡ.",
-    "Em vẫn luôn ngưỡng mộ vì những gì chị đã nỗ lực. Đừng bao giờ hoài nghi bản thân nhé, vì chị tuyệt vời hơn chị nghĩ rất nhiều.",
-    "Tuổi mới, chúc chị bớt đi những muộn phiền, thêm nhiều đêm ngủ ngon và những ngày thức dậy thật bình yên.",
-    "Dù ngoài kia có bao nhiêu bão giông, mong bình yên luôn dừng bước trước hiên nhà chị."
+    "Hi hô chị iuuuu,",
+    "Hơi dài xíu xiu chị ráng đọc hết nhá hehe",
+    "Đầu tiên là… Happy Birthday chị yêu. 🥳❤️",
+    "Em nghĩ mãi không biết sẽ tặng chị quà gì mà chị thì gì cũm có hết rồi. Cuối cùng em chọn một món quà nhỏ xíu này, hy vọng chị sẽ thích nó.",
+    "Em mong “bó cây” Cần Thăng sẽ lớn lên từng ngày, giống như công việc của chị: luôn vững vàng, từng chút một phát triển, mọi điều đều thuận lợi, và ngày càng vững mạnh.",
+    "Em luôn nghĩ mình là một đứa rất rất may mắn, vì giữa rất nhiều người, em lại được gặp anh chị. Và hôm nay em trưởng thành hơn một chút, tự tin hơn một chút, biết suy nghĩ hơn một chút, tinh tế hơn, để tâm hơn thì trong đó có phần rất lớn là nhờ chị. Nhờ chị yêu thương nhờ chị mắng mỏ nữa hehe.",
+    "Em sẽ cố gắng thật nhiều để một ngày nào đó cũng có thể giỏi được một góc nhỏ của chị - phú bà của iêm",
+    "Yêu chị nhiều nhắm. ❤️"
   ],
 
   // Photo Gallery (10 images sliding from left and right)

@@ -31,7 +31,7 @@ export default function SecretLetter() {
           <MailOpen size={24} className="text-white" strokeWidth={1.5} />
         </div>
 
-        <div className="absolute bottom-[-40px] group-hover:bottom-4 transition-all duration-300 font-script text-2xl text-accent-red z-30 drop-shadow-sm bg-white/80 px-4 py-1 rounded-full backdrop-blur-sm">
+        <div className="absolute bottom-4 font-script text-2xl text-accent-red z-30 drop-shadow-sm bg-white/80 px-4 py-1 rounded-full backdrop-blur-sm">
           Mở thư nhé!
         </div>
       </motion.button>
