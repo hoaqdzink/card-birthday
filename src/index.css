@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Parisienne&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #FFF5F2; /* warm-cream */
+    color: #574A4A; /* text-brown */
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+}
+
+.font-script {
+  font-family: 'Parisienne', cursive;
+}
+.font-serif {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Subtle dot texture */
+.bg-grain {
+  background-image: radial-gradient(#F6B8C8 0.5px, transparent 0.5px);
+  background-size: 15px 15px;
+}
+
+/* Custom Scrollbar for a cute feel */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #F9D6DE;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F48BA8;
+}
+
+/* Hide scrollbar completely but allow scrolling (useful for swiper/slider containers if any) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
